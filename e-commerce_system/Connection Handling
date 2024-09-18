@@ -2,7 +2,7 @@ import mysql.connector
 
 def load_connection_details(file_path):
     try:
-        with open(file_path, "r") as file:
+        with open(r"D:\Python_Training\SQL_Host_details.txt", "r") as file:
             lines = file.readlines()
             connection_details = {}
             for line in lines:
